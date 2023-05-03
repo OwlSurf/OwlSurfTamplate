@@ -1,6 +1,6 @@
 /**
 *	\file         tamplate.h
-*	\brief        tamplate.
+*	\brief        Tamplate.
 *	
 *	\author       Roman Garanin
 */

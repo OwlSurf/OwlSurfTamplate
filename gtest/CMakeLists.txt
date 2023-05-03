@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21.2)
 
-project(TestLibLL)
+project(TamplateLib)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -14,7 +14,7 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)  
 
 include_directories(../Inc)
-add_library(Tamplate STATIC ../Src/tamplate.c)
+add_library(TamplateLib STATIC ../Src/tamplate.c)
 
 enable_testing()
 add_executable(
@@ -23,7 +23,7 @@ add_executable(
 	  )
 target_link_libraries(
 	      runtest
-	      Tamplate
+	      TamplateLob
 	      gtest_main
 	      )
 
